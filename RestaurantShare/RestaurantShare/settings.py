@@ -25,7 +25,7 @@ SECRET_KEY = 't7a3%2tk81xetmyzxp!tsgmv6%n(-ugk^f-ajppkzwyjhd7#ji'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['restaurant-wtrhf.run.goorm.io']
 
 
 # Application definition
@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'shareRes',
+    'sendEmail'
 ]
 
 MIDDLEWARE = [
